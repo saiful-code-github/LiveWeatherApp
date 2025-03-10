@@ -1,0 +1,42 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+body{
+ background: url(./assets/windows-10.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+}
+.weather-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .weather-container input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .weather-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .animate{
+    animation: aniamte 26s linear infinite both;
+  }
+  @keyframes aniamte {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
