@@ -16,7 +16,7 @@ export const Weather = () => {
         setError("")
         setWeatherData(null);
         try {
-            const ApiKey = 'c207ab78b7ee2cbec3861f9db60eaf6a'
+            const ApiKey = 'a7269d6d493d3531065a0480e789324f'
             const url = `https://api.openweathermap.org/data/2.5/weather`;
             const res = await axios.get(url,{
                 params: {
